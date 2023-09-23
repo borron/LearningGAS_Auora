@@ -1,4 +1,4 @@
-// Copyright Brink Video Gme Studio
+// Copyright Brink Video Game Studio
 
 #pragma once
 
