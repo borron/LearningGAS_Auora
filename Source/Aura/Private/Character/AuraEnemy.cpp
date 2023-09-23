@@ -1,4 +1,4 @@
-// Copyrigth Brink Videogame Studio
+// Copyright Brink Video Game Studio
 
 
 #include "Character/AuraEnemy.h"
