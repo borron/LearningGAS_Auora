@@ -13,10 +13,12 @@ AAuraCharacterBase::AAuraCharacterBase()
 
 }
 
+// Sect. 3, Lect. 21 - Constructing the ASC and AS
 UAbilitySystemComponent* AAuraCharacterBase::GetAbilitySystemComponent() const
 {
 	return AbilitySystemComponent;
 }
+//
 
 void AAuraCharacterBase::BeginPlay()
 {
