@@ -13,6 +13,7 @@ AAuraEnemy::AAuraEnemy()
 	// Sect. 3, Lect. 21 - Constructing the ASC and AS
 	AbilitySystemComponent = CreateDefaultSubobject<UAuraAbilitySystemComponent>("AbilitySystemComponent");
 	AbilitySystemComponent->SetIsReplicated(true);
+	AbilitySystemComponent->SetReplicationMode(EGameplayEffectReplicationMode::Minimal); // Added in Sect. 3, Lect. 22 - Repl. Mode
 
 	AttributeSet = CreateDefaultSubobject<UAuraAttributeSet>("AttributeSet");
 	//
